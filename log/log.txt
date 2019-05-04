@@ -1,0 +1,12 @@
+ * Detected change in 'D:\\zyla\\flask-url-shortener\\app.py', reloading
+ * Detected change in 'D:\\zyla\\flask-url-shortener\\app.py', reloading
+127.0.0.1 - - [2019-05-04 16:18:04] "GET / HTTP/1.1" 200 1010 0.013975
+127.0.0.1 - - [2019-05-04 16:18:04] "GET /static/css/bootstrap.css HTTP/1.1" 200 153184 0.009961
+127.0.0.1 - - [2019-05-04 16:18:04] "GET /static/js/jquery-1.12.1.js HTTP/1.1" 200 305566 0.045879
+127.0.0.1 - - [2019-05-04 16:18:04] "GET /static/js/bootstrap.js HTTP/1.1" 200 71657 0.009005
+127.0.0.1 - - [2019-05-04 16:18:04] "GET /favicon.ico HTTP/1.1" 404 374 0.012985
+127.0.0.1 - - [2019-05-04 16:18:04] "GET / HTTP/1.1" 200 1010 0.001023
+127.0.0.1 - - [2019-05-04 16:18:06] "POST / HTTP/1.1" 200 697 0.003979
+127.0.0.1 - - [2019-05-04 16:18:07] "GET / HTTP/1.1" 200 1010 0.001029
+ * Detected change in 'D:\\zyla\\flask-url-shortener\\app.py', reloading
+ * Detected change in 'D:\\zyla\\flask-url-shortener\\app.py', reloading

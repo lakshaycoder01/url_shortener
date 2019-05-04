@@ -1,0 +1,37 @@
+{% extends 'base.html' %} {% block title %}URL.it{% endblock %} {% block body %}
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+      {% for message in get_flashed_messages() %}
+      <div class="alert alert-danger alert-dismissible" role="alert">
+        <button
+          type="button"
+          class="close"
+          data-dismiss="alert"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+        {{ message | safe }}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+      <h1>URL.it</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+      <form method="POST">
+        <div class="form-group">
+          <label for="url">Enter url</label>
+          <input type="url" class="form-control" name="url" id="url" />
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}
